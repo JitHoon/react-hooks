@@ -24,9 +24,10 @@ export default function UseRef() {
     // onClick 함수 전달
     const clickSpan = useClick(clickEvent);
     return (
-        <section>
+        <samp>
             {/* useRef() 변수를 반환하는 clickSpan 변수를 넣어야함 */}
-            <span ref={clickSpan}>{"3. UseRef() Hook => Click me and Get html element easy"}</span>
-        </section>
+            <h3>{"3. UseRef()"}</h3>
+            <h4 ref={clickSpan}>{"Click me and Get html element easy"}</h4>
+        </samp>
     );
 }

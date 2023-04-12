@@ -17,8 +17,9 @@ export default function UseEffect() {
     // titleUpdator("Home") = setTitle("Home")과 같은 의미
     setTimeout(() => titleUpdator("Home"), 5000);
     return (
-        <section>
-            <span>{"2. useEffect() Hook => Look at Title (Loading... -> Home)"}</span>
-        </section>
+        <samp>
+            <h3>{"2. useEffect()"}</h3>
+            <h5>{"Look at Title (Loading... -> Home)"}</h5>
+        </samp>
     );
 }

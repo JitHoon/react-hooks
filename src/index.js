@@ -8,9 +8,15 @@ import UseRef from './Hooks/UseRef';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseState />
-    <App />
-    <UseEffect />
-    <UseRef />
+    <blockquote>
+      <UseState />
+      <App />
+    </blockquote>
+    <blockquote>      
+      <UseEffect />
+    </blockquote>
+    <blockquote>
+      <UseRef />
+    </blockquote>
   </React.StrictMode>
 );

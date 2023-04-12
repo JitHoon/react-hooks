@@ -5,9 +5,9 @@ export default function App () {
     const userName = UseInput("Dr.");
     return (
         // {...userName} same as value={userName.value} onChange={userName.onChange}
-        <section>
-            <span>{"1-1. useInput() Compoment => "}</span>
+        <samp>
+            <h4>{"1-1. useInput() Compoment"}</h4>
             <input placeholder='userName' {...userName}></input>
-        </section>
+        </samp>
     );
 }

@@ -4,11 +4,14 @@ export default function UseState() {
   const plusCount = () => {setCount((current)=>current+1);};
   const minusCount = () => {setCount((current)=>current-1);};
   return (
-    <section>
-      <span>{"1. useState() Hook => "}</span>
-      {count}
-      <button onClick={plusCount}>Up</button>
-      <button onClick={minusCount}>Down</button>
-    </section>
+    <samp>
+      <h3>{"1. useState()"}</h3>
+      
+      <div>
+        <button onClick={plusCount}>Up</button>
+        <h2>{count}</h2>
+        <button onClick={minusCount}>Down</button>
+      </div>
+    </samp>
   );
 }
