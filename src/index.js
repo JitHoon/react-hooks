@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// Hooks
 import App from './App';
 import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
 import UseRef from './Hooks/UseRef';
+import UseBeforeLeave from './Hooks/UseBeforeLeave';
+
+// Functional Programming
 import UseConfirm from './functionalCode/UseConfirm';
 import UsePreventLeave from './functionalCode/UsePreventLeave';
 
@@ -21,6 +26,7 @@ root.render(
     <blockquote>
       <UseRef />
     </blockquote>
+    <UseBeforeLeave />
     <blockquote>
       <h3>{"Functional Programming 🙃"}</h3>
       <UseConfirm />
