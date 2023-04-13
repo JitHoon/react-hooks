@@ -6,7 +6,7 @@ export default function UseBeforeLeave() {
         // 마우스가 왼쪽 상단으로 벗어 날 때 알림
         const {clientX, clientY} = event;
         if (clientX<=200 && clientY<=0){
-            alert("You find me! Plz don't go");
+            alert("You find me! 4. UseBeforeLeave()");
         };
     };
     // useEffect + mouseleave event

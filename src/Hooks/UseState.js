@@ -5,7 +5,7 @@ export default function UseState() {
   const minusCount = () => {setCount((current)=>current-1);};
   return (
     <samp>
-      <h3>{"1. useState()"}</h3>
+      <h3>{"1. UseState()"}</h3>
       
       <div>
         <button onClick={plusCount}>Up</button>

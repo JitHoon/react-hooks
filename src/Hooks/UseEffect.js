@@ -18,7 +18,7 @@ export default function UseEffect() {
     setTimeout(() => titleUpdator("Home"), 5000);
     return (
         <samp>
-            <h3>{"2. useEffect()"}</h3>
+            <h3>{"2. UseEffect()"}</h3>
             <h5>{"Look at Title (Loading... -> Home)"}</h5>
         </samp>
     );

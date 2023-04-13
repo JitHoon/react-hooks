@@ -6,7 +6,7 @@ export default function App () {
     return (
         // {...userName} same as value={userName.value} onChange={userName.onChange}
         <samp>
-            <h4>{"1-1. useInput() Compoment"}</h4>
+            <h4>{"1-1. UseInput() Compoment"}</h4>
             <input placeholder='userName' {...userName}></input>
         </samp>
     );
