@@ -7,6 +7,7 @@ import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
 import UseRef from './Hooks/UseRef';
 import UseBeforeLeave from './Hooks/UseBeforeLeave';
+import UseFadeIn from './Hooks/UseFadeIn';
 
 // Functional Programming
 import UseConfirm from './functionalCode/UseConfirm';
@@ -26,7 +27,14 @@ root.render(
     <blockquote>
       <UseRef />
     </blockquote>
-    <UseBeforeLeave />
+    <blockquote>
+      <h5>{"4. Find out 'UseBeforeLeave' Hook"}</h5>
+      <UseBeforeLeave />
+    </blockquote>
+    <blockquote>
+      <h5>{"Waiting for 20s fade in⬇"}</h5>
+      <UseFadeIn />
+    </blockquote>
     <blockquote>
       <h3>{"Functional Programming 🙃"}</h3>
       <UseConfirm />
