@@ -9,6 +9,7 @@ import UseRef from './Hooks/UseRef';
 import UseBeforeLeave from './Hooks/UseBeforeLeave';
 import UseFadeIn from './Hooks/UseFadeIn';
 import UseScroll from './Hooks/UseScroll';
+import UseFullScreen from './Hooks/UseFullScreen';
 
 // Functional Programming
 import UseConfirm from './functionalCode/UseConfirm';
@@ -38,6 +39,9 @@ root.render(
     </blockquote>
     <blockquote>
       <UseScroll />
+    </blockquote>
+    <blockquote>
+      <UseFullScreen />
     </blockquote>
     <blockquote>
       <h3>{"Functional Programming 🙃"}</h3>
